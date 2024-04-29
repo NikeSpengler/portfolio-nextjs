@@ -3,7 +3,7 @@ import {AlignJustify} from 'lucide-react';
 import {motion} from 'framer-motion';
 
 // Links (next.js)
-import Link from "next/link"
+import Link from "next/link";
 
 // Next hooks
 import { usePathname } from 'next/navigation';
@@ -15,13 +15,13 @@ const links = [
 ];
 
 const Sidebar = ({containerStyles, linkStyles, underlineStyles }) => {
-    const path = usePathname()
+    const path = usePathname();
   return (
     <Sheet className={`${containerStyles}`}>
         <SheetTrigger>
             <AlignJustify className=''/>
         </SheetTrigger>
-        <div className='flex flex-col items-center gap-y-6'>
+        <div>
             <SheetContent className='flex flex-col items-center gap-y-6 pt-[200px]'>
             
                     {links.map((link, index) => {
@@ -32,7 +32,12 @@ const Sidebar = ({containerStyles, linkStyles, underlineStyles }) => {
                             className={`capitalize ${linkStyles}`}
                             >
                             {link.path === path && (
-                                <motion.span initial={{y: '-100'}}/>
+                                <motion.span 
+                                    initial={{y: '-100%'}} 
+                                    animate={{y:0}}
+                                    transition={{type: 'tween'}}
+                                    layoutId='underline'
+                                    className={`${underlineStyles}`}/>
                             )}
                             {link.name}
                         </Link>
