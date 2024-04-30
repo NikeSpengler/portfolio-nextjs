@@ -74,3 +74,11 @@
       @apply bg-background text-foreground;
     }
   }
+
+  .h1 {
+    @apply text-4xl xl:text-6xl xl:leading-[80px] tracking-[1px] font-light;
+  }
+
+  .subtitle {
+    @apply text-muted-foreground text-[16px] mb-8 font-light;
+  }
