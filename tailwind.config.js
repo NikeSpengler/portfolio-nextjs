@@ -72,9 +72,9 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       backgroundImage: {
-        hero_shape: 'url(/hexagon-cv.svg)',
-        hero_shape2_light: 'url(/irregular-hexagon.svg)'
-      }
+        hero_shape: 'url(/shape1.svg)',
+        hero_shape2_light: 'url(/irregular-hexagon.svg)',
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
