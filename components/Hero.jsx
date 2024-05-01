@@ -22,10 +22,13 @@ const Hero = () => {
             {/* Button */}
             <div className='flex justify-center xl:justify-start'>
                 <Link href={'/contact'}>
-                    <button className='hover:bg-opacity-50 hover:bg-stone-300 px-6 py-2 border-solid border-2 border-black rounded-3xl'>
+                    <button className='hover:bg-opacity-50 hover:bg-stone-300 px-6 py-2 border-solid border-2 border-black rounded-3xl dark:border-white'>
                         Contact
                     </button>
                 </Link>
+            </div>
+            <div className='flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce'>
+                <div className='text-3xl text-primary'>v</div>
             </div>
         </div>
     </section>

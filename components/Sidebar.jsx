@@ -22,7 +22,7 @@ const Sidebar = ({containerStyles, linkStyles, underlineStyles }) => {
             <AlignJustify className=''/>
         </SheetTrigger>
         <div>
-            <SheetContent className='flex flex-col items-center gap-y-6 pt-[200px] text-2xl'>
+            <SheetContent className='flex flex-col items-center gap-y-6 pt-[200px] text-2xl font-light'>
             
                     {links.map((link, index) => {
                         return (

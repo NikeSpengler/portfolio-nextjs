@@ -20,7 +20,7 @@ const Contact = () => {
                 </div>
             </div>
             {/* Button */}
-            <div className='flex flex-col gap-y-3 '>
+            <div className='flex flex-col justify-center gap-y-3 md:flex-row gap-x-3 mx-auto xl:justify-start'>
               <div className='flex justify-center xl:justify-start hover:bg-opacity-50'>
                   <Link href={'/contact'}>
                       <button className='hover:bg-opacity-50 hover:bg-stone-300 px-6 py-2 border-solid border-2 border-black  dark:border-white'>GitHub</button>
