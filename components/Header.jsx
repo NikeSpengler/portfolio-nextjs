@@ -20,20 +20,19 @@ const Header = () => {
 
     console.log(pathname);
   return (
-    <header className={`${header ? 'bg-white dark:bg-black' : 'bg-transparent'} 
-    sticky top-0 z-30 transition-all`}>
-        <div className='container pt-4'>
-            <div className='flex justify-between items-center'>
-                <ThemeToggler />
-                <div className='flex items-center'>
-                    <Sidebar 
-                        containerStyles="gap-x-8 items-center" 
-                        linkStyles='relative hover:text-primary transition-all'
-                        underlineStyles='absolute left-0 topp-full h-[2px]'/>
+         <header className={`${header ? 'bg-transparent dark:bg-transparent' : 'bg-transparent'} 
+    frosted sticky top-0 z-30 bg-opacity-10 transition-all`}>
+            <div className='container pt-4 pb-4 bg-transparent'>
+                <div className='flex justify-between items-center'>
+                    <ThemeToggler />
+                    <div className='flex items-center'>
+                        <Sidebar 
+                            containerStyles="gap-x-8 items-center" 
+                            linkStyles='relative hover:text-primary transition-all'
+                            underlineStyles='absolute left-0 topp-full h-[2px]'/>
+                    </div>
                 </div>
             </div>
-        </div>
-        
     </header>
   );
 };
