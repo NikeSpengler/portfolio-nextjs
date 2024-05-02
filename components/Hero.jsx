@@ -5,9 +5,9 @@ const Hero = () => {
   return (
     <section className='py-12 xl:py-24 h-[100vh] xl:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-black'>
         <div className='container mx-auto'>
-            <div className='flex md:flex-row flex-col justify-between gap-x-16'>
-                <div className='flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0
-                text-center m:text-left xl:text-left'>
+            <div className='flex md:flex-row flex-col justify-center gap-x-16'>
+                <div className='flex max-w-[600px] flex-col justify-center mx-auto md:mx-0
+                text-center md:text-left'>
                     <div className='text-sm mb-4 tracking-[1px] text-color-brown'>FULLSTACK DEVELOPER</div>
                     <h1 className='h1'>Nike Spengler</h1>
                     <p className='subtitle max-w-[490px] mx-auto pt-4 xl:mx-0'>
