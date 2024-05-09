@@ -7,7 +7,7 @@ const ProjectCard = ({post}) => {
   return (
     <div id="container-img" className='container flex flex-col gap-5 mb-5'>
       <div id='top' className=''>
-        <div id='img-container' className='w-[100%] h-[400px] relative'>
+        <div id='img-container' className='w-[100%] md:h-[500px] h-[150px] relative'>
           <Image src="/ExamKYH.png" alt="" fill className="object-cover"/>
         </div>
       </div>
