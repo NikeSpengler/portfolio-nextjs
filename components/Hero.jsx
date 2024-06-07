@@ -7,14 +7,14 @@ const Hero = () => {
         <div className='container mx-auto'>
             <div className=''>
                 <div className='text-left mx-auto md:mx-0 md:text-left leading-tight'>
-                    <p className=' xl:text-[120px] md:text-[80px] text-[60px]'>Nike Spengler</p>
+                    <p className=' xl:text-[120px] md:text-[80px] text-[60px]'>Frontend Developer</p>
                   
                 </div>
             </div>
             <div>
                 <div className='flex md:flex justify-center mx-auto md:mx-0 pl-24'>
                     <p className='xl:subtitle md:subtitle text-sm pt-10 md:pt-20 md:text-left text-left max-w-[250px]'>
-                        I am a fullstack developer with with a focus on and keen interest in frontend development. 
+                        I am a Nike Spengler a Frontend Developer with with a focus on and keen interest in usability. 
                     </p>
                 </div>
                 
@@ -28,7 +28,7 @@ const Hero = () => {
             <div>
                 <div className='flex md:flex justify-center mx-auto md:mx-0 pl-24'>
                     <p className='xl:subtitle md:subtitle text-sm pt-10 md:pt-20 md:text-left text-left max-w-[230px]'>
-                        I am a fullstack developer with with a focus on and keen interest in frontend development. 
+                        ... 
                     </p>
                    
                 </div>
