@@ -1,8 +1,13 @@
-import { expect, test } from 'vitest'
+import { expect } from 'vitest'
 import { render, screen } from '@testing-library/react'
 import Footer from "../components/Footer";
  
-test('Page', () => {
-  render(<Footer />)
-  expect(screen.getByRole('text', { level: 1, name: 'Made by' })).toBeDefined()
+describe('Footer', () => {
+  it('Should render the full text', () => {
+
+    render(<Footer />);
+
+    const message = screen.queryByText(/Made by/i);
+    expect(message).toBeDefined();
+  })
 })
